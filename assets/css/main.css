@@ -18,7 +18,7 @@ body {
 }
 
 .hero.bg-1 {
-    background: url('/assets/images/background1.jpg');
+    background: url({{ '/assets/images/background1.jpg' | relative_url }});
     background-size: cover;
     background-position: 50% 50%;
 }
