@@ -18,13 +18,13 @@ body {
 }
 
 .hero.bg-1 {
-    background: url({{ '/assets/images/background1.jpg' | relative_url }});
+    background: url('../assets/images/background1.jpg');
     background-size: cover;
     background-position: 50% 50%;
 }
 
 .hero.bg-2 {
-    background: url({{ '/assets/images/background2.jpg' | relative_url }});
+    background: url('../assets/images/background2.jpg');
     background-size: cover;
     background-position: 50% 50%;
 }
