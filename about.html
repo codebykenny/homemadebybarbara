@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Great+Vibes" rel="stylesheet">
+
+    <title>Homemade by Barbara</title>
+</head>
+<body>
+    <style>
+        html, 
+        body {
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        h1 {
+            font-weight: 100;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .container .row {
+            flex-direction: row;
+        }
+
+        .container .flex-start {
+            align-items: flex-start;
+        }
+
+        .container .full {
+            width: 100%;
+        }
+
+        .half {
+            width: 50%
+        }
+
+        .half img {
+            max-width: 100%;
+        }
+
+        .hero-header {
+            width: 100%;
+            height: 500px;
+            background: red;
+        }
+
+        nav {
+            margin: 10px 0;
+            font-family: 'Crimson Text', serif;
+        }
+
+        nav a {
+            color: #929292;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .heading h1 {
+            color: #F0B7CD;
+            font-family: 'Great Vibes', cursive;
+            font-size: 40px;
+            /* text-shadow: 2px 2px #9ed6ff; */
+            font-weight: 100 !important;
+            margin-bottom: 0px;
+            z-index: 3;
+        }
+
+        .tile-wrapper {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 500px;
+            justify-content: center;
+        }
+
+        .tile {
+            background: blue;
+            height: 100%;
+            width: 333px;
+            margin: 10px 17px;
+            background-size: cover;
+            background-position: 50% 50%;
+        }
+
+        .tile-image {
+            height: 200px;
+        }
+
+        .tile-image img {
+            width: 100%;
+        }
+
+        @media (max-width: 900px) {
+            .tile-wrapper {
+                height: 400px;
+            }
+
+            .tile {
+                margin: 10px 10px;
+            }
+        }
+
+        @media (max-width: 700px) {
+            .tile-wrapper {
+                height: 300px;
+            }
+
+            .tile {
+                margin: 10px 5px;
+            }
+        }
+
+        .about {
+            margin-top: 30px;
+            font-family: 'Indie Flower', cursive;
+        }
+
+        .about img {
+            max-width: 75%;
+        }
+    </style>
+
+    <div class="container">
+        <div class="heading">
+            <h1>Homemade By Barbara</h1>
+        </div>
+        <nav>
+            <a href="">home</a>
+            <a href="">about</a>
+            <a href="">gallery</a>
+            <a href="">services</a>
+            <a href="">contact</a>
+        </nav>
+    
+        <div class="about container row full flex-start">
+            <div class="half text-right">
+                <img src="assets/images/barbara.jpg" alt="">
+            </div>
+            <div class="half text-center">
+                <h1>Meet Barbara</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
