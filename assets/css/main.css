@@ -5,6 +5,10 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-family: 'Indie Flower', cursive;
+}
+
 .text-center {
     text-align: center;
 }
