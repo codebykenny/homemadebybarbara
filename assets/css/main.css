@@ -21,6 +21,10 @@ h1 {
     text-align: right;
 }
 
+.text-red {
+    color: red;
+}
+
 .phl {
     padding-left: 20px;
     padding-right: 20px;
@@ -337,7 +341,11 @@ form {
 form input {
     border: none;
     background: transparent;
+    font-size: 14px;
+}
 
+form input:focus {
+    outline: none;
 }
 
 form label {
@@ -348,5 +356,5 @@ form label {
 .input-wrapper {
     padding: 5px 10px;
     border: 1px solid gray;
-    border-radius: 6px;
+    border-radius: 5px;
 }
