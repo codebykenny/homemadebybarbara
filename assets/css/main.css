@@ -319,3 +319,24 @@ nav a {
 li {
     margin: 10px 0px;
 }
+
+form {
+    display: block;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: inline-block;
+}
+
+form input {
+    border: none;
+    background: transparent;
+
+}
+
+.input-wrapper {
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
