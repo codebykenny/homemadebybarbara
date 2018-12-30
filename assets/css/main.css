@@ -21,7 +21,10 @@ h1 {
     text-align: right;
 }
 
-
+.phl {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 .hero {
     position: relative;
@@ -197,6 +200,10 @@ h1 {
     width: 100%;
 }
 
+.container .full {
+    width: 100%;
+}
+
 .half {
     width: 50%
 }
@@ -284,6 +291,7 @@ nav a {
 }
 
 .about {
+    max-width: 980px;
     margin-top: 30px;
     font-family: 'Indie Flower', cursive;
 }
@@ -300,6 +308,7 @@ nav a {
 
     .about .half {
         text-align: center;
+        width: 80%;
     }
 }
 
