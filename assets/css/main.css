@@ -300,6 +300,10 @@ nav a {
     max-width: 75%;
 }
 
+.about p {
+    font-family: Crimson Text;
+}
+
 @media (max-width: 450px) {
     .about {
         flex-direction: column !important;
