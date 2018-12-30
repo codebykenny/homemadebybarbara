@@ -327,12 +327,21 @@ form {
 
 .form-group {
     display: inline-block;
+    color: gray;
+    font-family: Crimson Text;
+    display: inline-block;
+    padding: 8px 10px;
 }
 
 form input {
     border: none;
     background: transparent;
 
+}
+
+form label {
+    padding-bottom: 6px;
+    display: block;
 }
 
 .input-wrapper {
