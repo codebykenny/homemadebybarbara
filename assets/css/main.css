@@ -331,11 +331,19 @@ form {
 }
 
 .form-group {
-    display: inline-block;
     color: gray;
     font-family: Crimson Text;
     display: inline-block;
     padding: 8px 10px;
+}
+
+.form-group.block {
+    display: block;
+}
+
+.form-group textarea {
+    border: 1px solid gray;
+    border-radius: 5px;
 }
 
 form input {
