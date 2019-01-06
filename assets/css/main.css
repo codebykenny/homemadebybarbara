@@ -328,6 +328,7 @@ form {
     display: block;
     margin: 0 auto;
     max-width: 500px;
+    padding-bottom: 50px;
 }
 
 .form-group {
@@ -365,4 +366,23 @@ form label {
     padding: 5px 10px;
     border: 1px solid gray;
     border-radius: 5px;
+}
+
+.form-group input[type=submit] {
+    background: white;
+    font-weight: 400;
+    border-radius: 0;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    font-family: 'Crimson Text', serif;
+    font-size: 19px;
+    letter-spacing: 1.3px;
+    padding: 12px 30px;
+    transition: all 0.25s ease;
+}
+
+.form-group input[type=submit]:hover {
+    color: white;
+    background: black;
 }
