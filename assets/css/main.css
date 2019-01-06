@@ -386,3 +386,8 @@ form label {
     color: white;
     background: black;
 }
+
+iframe {
+    width: 980px;
+    max-width: 90%;
+}
