@@ -388,6 +388,6 @@ form label {
 }
 
 iframe {
-    width: 980px;
-    max-width: 90%;
+    width: 980px !important;
+    max-width: 90% !important;
 }
